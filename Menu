@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Hambúrgueres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Os melhores Hambúrgueres do Brasil</h1>
+        <div class="menu-item">
+            <img src="hamburguer1.jpg" alt="Hambúrguer Clássico">
+            <div class="description">
+                <h2>Hambúrguer Clássico</h2>
+                <p>Carne suculenta, queijo cheddar, alface, tomate e maionese.</p>
+                <p>Preço: R$ 25,00</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="hamburguer2.jpg" alt="Hambúrguer Gourmet">
+            <div class="description">
+                <h2>Hambúrguer Gourmet</h2>
+                <p>Carne de Angus, queijo brie, cebola caramelizada e molho especial.</p>
+                <p>Preço: R$ 35,00</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 5px solid lightyellow;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: darkorange;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.description {
+    text-align: left;
+}
+
+.description h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.description p {
+    margin: 5px 0;
+}
