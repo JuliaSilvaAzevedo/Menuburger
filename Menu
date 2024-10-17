@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Os melhores Hambúrgueres do Brasil</h1>
         <div class="menu-item">
-            <img src="hamburguer1.jpg" alt="Hambúrguer Clássico">
+            <img src="Hamburguer 2.jpeg" alt="Hambúrguer Clássico">
             <div class="description">
                 <h2>Hambúrguer Clássico</h2>
                 <p>Carne suculenta, queijo cheddar, alface, tomate e maionese.</p>
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="menu-item">
-            <img src="hamburguer2.jpg" alt="Hambúrguer Gourmet">
+            <img src="Hamburguer-Artesanal.webp" alt="Hambúrguer Gourmet">
             <div class="description">
                 <h2>Hambúrguer Gourmet</h2>
                 <p>Carne de Angus, queijo brie, cebola caramelizada e molho especial.</p>
